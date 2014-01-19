@@ -77,4 +77,24 @@ public class unobjet implements Serializable {
         
     }
 
+    private String typeObjet;
+
+    /**
+     * Get the value of typeObjet
+     *
+     * @return the value of typeObjet
+     */
+    public String getTypeObjet() {
+        return typeObjet;
+    }
+
+    /**
+     * Set the value of typeObjet
+     *
+     * @param typeObjet new value of typeObjet
+     */
+    public void setTypeObjet(String typeObjet) {
+        this.typeObjet = typeObjet;
+    }
+
 }
