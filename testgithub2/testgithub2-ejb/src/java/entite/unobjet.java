@@ -56,4 +56,24 @@ public class unobjet implements Serializable {
         return "entite.unobjet[ id=" + id + " ]";
     }
     
+    private String nomObjet;
+
+    /**
+     * Get the value of nomObjet
+     *
+     * @return the value of nomObjet
+     */
+    public String getNomObjet() {
+        return nomObjet;
+    }
+
+    /**
+     * Set the value of nomObjet
+     *
+     * @param nomObjet new value of nomObjet
+     */
+    public void setNomObjet(String nomObjet) {
+        this.nomObjet = nomObjet;
+    }
+
 }
