@@ -73,7 +73,8 @@ public class unobjet implements Serializable {
      * @param nomObjet new value of nomObjet
      */
     public void setNomObjet(String nomObjet) {
-        this.nomObjet = nomObjet;
+        this.nomObjet = nomObjet;//test
+        
     }
 
 }
