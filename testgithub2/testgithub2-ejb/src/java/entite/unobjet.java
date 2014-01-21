@@ -96,6 +96,8 @@ public class unobjet implements Serializable {
      */
     public void setTypeObjet(String typeObjet) {
         this.typeObjet = typeObjet;
+        //commentaire origine portable
+        //à supprimer sur youplaboom
     }
 
 }
