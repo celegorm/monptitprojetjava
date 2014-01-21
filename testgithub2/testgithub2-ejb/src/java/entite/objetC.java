@@ -1,4 +1,4 @@
-/*
+0/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -41,6 +41,10 @@ public class objetC implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
+        //test
+        
+        
+        
         if (!(object instanceof objetC)) {
             return false;
         }
