@@ -60,4 +60,5 @@ public class objetC implements Serializable {
         return "entite.objetC[ id=" + id + " ]";
     }
     
+    
 }
